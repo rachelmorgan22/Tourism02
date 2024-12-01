@@ -1,0 +1,56 @@
+.faq-page {
+    padding: 20px;
+    background-color: white; /* Light pastel blue */
+    color: white; /* Charcoal gray */
+}
+
+h1 {
+    color: darkolivegreen; /* Dark teal */
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.faq-list {
+    margin: 20px 0;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.faq-item h3{
+    color: white;
+    transition: color 0.3s;
+    letter-spacing: 1px;
+}
+
+.faq-item:hover {
+    background-color: wheat; /* Highlight on hover */
+    border: 1px solid darkolivegreen;
+    color: darkolivegreen;
+}
+
+.faq-item:hover h3 {
+    color: darkolivegreen;
+}
+
+.faq-contact-info {
+    margin-top: 30px;
+    padding: 15px;
+    color: white;
+    background-color: darkolivegreen; /* Light background for contact section */
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.faq-contact-info h2{
+    color: white;
+    letter-spacing: 1px;
+}
+
+

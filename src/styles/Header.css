@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 40px;
+    background-color: wheat;
+    color: #FFF5E1;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    font-size: 18px;
+    background-color: wheat;
+    color: #333333;
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo:hover{
+    text-decoration: none;
+}
+
+.nav {
+    display: none;
+    position: absolute;
+    top:100%;
+    right: 0;
+    background-color: wheat;
+    width: auto;
+    min-width: 150px;
+    z-index: 10;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav.open {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF5E1;
+    background-color: #333333;
+    display: block;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background-color:  wheat;
+}
+
+.bar {
+    height: 4px;
+    width: 100%;
+    background-color: #333333;
+    transition: all 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: wheat;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
