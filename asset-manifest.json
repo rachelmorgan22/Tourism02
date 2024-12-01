@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Tourism02/static/css/main.03c54d8b.css",
+    "main.js": "/Tourism02/static/js/main.2d58cc12.js",
+    "static/js/453.ae5b474f.chunk.js": "/Tourism02/static/js/453.ae5b474f.chunk.js",
+    "static/media/tropical-image.png": "/Tourism02/static/media/tropical-image.92cf99ede2b5c984af63.png",
+    "static/media/mountain-image.png": "/Tourism02/static/media/mountain-image.9e4bc7acbebe1e571924.png",
+    "static/media/hero-tourism02.png": "/Tourism02/static/media/hero-tourism02.9102544fa17d20e32288.png",
+    "static/media/market-image.png": "/Tourism02/static/media/market-image.0733964f1436987fd62c.png",
+    "index.html": "/Tourism02/index.html",
+    "main.03c54d8b.css.map": "/Tourism02/static/css/main.03c54d8b.css.map",
+    "main.2d58cc12.js.map": "/Tourism02/static/js/main.2d58cc12.js.map",
+    "453.ae5b474f.chunk.js.map": "/Tourism02/static/js/453.ae5b474f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03c54d8b.css",
+    "static/js/main.2d58cc12.js"
+  ]
+}
