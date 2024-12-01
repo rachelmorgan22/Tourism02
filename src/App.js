@@ -14,6 +14,7 @@ function App() {
   return (
    <div>
    <Header />
+   <Home />
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Tours" element={<Tours />} />
